@@ -1,4 +1,6 @@
-            begintime = new Date().getTime()/1000
+           doTheMath() {
+           
+           begintime = new Date().getTime()/1000
 
             for(i = 0; i<1; ++i)
                 {
@@ -15,5 +17,5 @@
 speedtime = endtime - begintime
 
 document.write(speedtime)
-            
+           }
             
