@@ -1,7 +1,6 @@
-
             begintime = new Date().getTime()/1000
 
-            for(i = 0; i<1000000; ++i)
+            for(i = 0; i<100; ++i)
                 {
                 a = Math.random() * 11
                 b = Math.random() * 11
